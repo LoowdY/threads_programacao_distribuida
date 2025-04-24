@@ -1,0 +1,2 @@
+Thread é uma forma de paralelismo leve.
+Pipelines com threads aumentam a performance.

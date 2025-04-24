@@ -1,0 +1,2 @@
+A linguagem Python é simples.
+A indentação em Python é obrigatória.

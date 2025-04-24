@@ -1,0 +1,2 @@
+O sistema distribuído é poderoso.
+O scheduler deve balancear a carga entre nós.
