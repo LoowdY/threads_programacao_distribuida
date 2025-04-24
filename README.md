@@ -13,9 +13,12 @@ Este repositório contém a implementação das três questões propostas para a
 
 ```
 processador_threads/
-├── questao1/                      # Thread pool com dispatcher e workers
+├── questao1/                       # Thread pool com dispatcher e workers
+│   └── README.md                   # Explicação específica da questão 1
 ├── questao2/processador_pipeline/ # Pipeline de 3 estágios com benchmarking
-├── questao3/                      # Scheduler distribuído com nós via TCP
+│   └── README.md                   # Explicação específica da questão 2
+├── questao3/                       # Scheduler distribuído com nós via TCP
+│   └── README.md                   # Explicação específica da questão 3
 └── .gitignore
 ```
 
@@ -31,8 +34,7 @@ Implementação de um sistema de processamento local com múltiplas threads, ond
 **Objetivo:**  
 Medir o throughput (arquivos por segundo) variando o número de threads: 1, 2, 4, 8.
 
-**Local:**  
-`processador_threads/questao1/`
+📄 Leia mais em: `questao1/README.md`
 
 ---
 
@@ -48,8 +50,7 @@ Reestruturação da questão anterior como pipeline com três estágios:
 Avaliar a **latência total** (tempo do início ao fim do pipeline) e a **escalabilidade** ao variar o número de threads por estágio.  
 Inclui benchmarking com geração de gráfico usando `matplotlib`.
 
-**Local:**  
-`processador_threads/questao2/processador_pipeline/`
+📄 Leia mais em: `questao2/processador_pipeline/README.md`
 
 ---
 
@@ -67,8 +68,7 @@ Desenvolvimento de um sistema distribuído com um **scheduler central** e **nós
 **Objetivo:**  
 Distribuir dinamicamente tarefas para nós remotos, simulando um ambiente distribuído real.
 
-**Local:**  
-`processador_threads/questao3/`
+📄 Leia mais em: `questao3/README.md`
 
 ---
 
@@ -92,4 +92,5 @@ Todos os experimentos podem ser testados executando os arquivos principais de ca
   - Inicie o scheduler: `python scheduler.py`
   - Inicie os workers: `python worker_node.py`
 
+Cada pasta de questão possui seu próprio `README.md` com detalhes específicos da implementação, instruções de execução e objetivos técnicos.
 
